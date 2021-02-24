@@ -21,9 +21,9 @@ public class EmailSender {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String senderEmailAddress = "chefguruhotel@gmail.com";
-        String senderEmailPassword = "Admin@chefguru";
-        String receiverEmailAddress = "tg2017233@gmail.com";
+        String senderEmailAddress = YOUR_EMAIL_ADDRESS;
+        String senderEmailPassword = YOUR_EMAIL_PASSWORD;
+        String receiverEmailAddress = RECEIVER_EMAIL_ADDRESS;
         String emailSubject = "Test";
         String emailContent = "<h3>New Password in ChefGuru Account</h3><br>Dear Sir/Madam,<br><br><p>Hi...</p><br>Thank You!<br><pre>Tel: +94 57 22 30 500<br>Email: mevangurusinghe2@gmail.com</pre>";
         
