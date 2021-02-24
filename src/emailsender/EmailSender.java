@@ -24,8 +24,8 @@ public class EmailSender {
         String senderEmailAddress = YOUR_EMAIL_ADDRESS;
         String senderEmailPassword = YOUR_EMAIL_PASSWORD;
         String receiverEmailAddress = RECEIVER_EMAIL_ADDRESS;
-        String emailSubject = "Test";
-        String emailContent = "<h3>New Password in ChefGuru Account</h3><br>Dear Sir/Madam,<br><br><p>Hi...</p><br>Thank You!<br><pre>Tel: +94 57 22 30 500<br>Email: mevangurusinghe2@gmail.com</pre>";
+        String emailSubject = YOUR_EMAIL_SUBJECT;
+        String emailContent = YOUR_EMAIL_CONTENT;
         
         new EmailSender().sendEmail(senderEmailAddress, senderEmailPassword, receiverEmailAddress, emailSubject, emailContent);
     }
